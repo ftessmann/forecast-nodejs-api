@@ -1,5 +1,5 @@
-import { SetupServer } from "@src/server";
-import supertest, { SuperTest, Test} from "supertest";
+import { SetupServer } from '@src/server';
+import supertest, { SuperTest, Test } from 'supertest';
 
 beforeAll(async () => {
     const server = new SetupServer();

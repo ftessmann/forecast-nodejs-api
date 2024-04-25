@@ -1,8 +1,8 @@
-import bodyParser from "body-parser";
-import "./util/module-alias";
-import { Server } from "@overnightjs/core";
-import { ForecastController } from "./controllers/forecast";
-import { Application } from "express";
+import bodyParser from 'body-parser';
+import './util/module-alias';
+import { Server } from '@overnightjs/core';
+import { ForecastController } from './controllers/forecast';
+import { Application } from 'express';
 
 // starts the server
 export class SetupServer extends Server {
@@ -27,4 +27,4 @@ export class SetupServer extends Server {
     public getApp(): Application {
         return this.app;
     }
-};
+}
